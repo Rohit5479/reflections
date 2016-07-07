@@ -4,7 +4,7 @@ A.1) .git dirictory is created which is hidden. It will help me tracking the cha
 
 Q.2) How is the staging area different from the working directory and the repository?
 
-A.2)
+A.2) We can add many files in the staging area and then when I commit only one commit id is created for the many files and it is done in the repository. Working directory is a place where we add our files in our hard drive.
 
 What value do you think it offers?
 

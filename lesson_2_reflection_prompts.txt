@@ -6,18 +6,28 @@ Q.2) How is the staging area different from the working directory and the reposi
 
 A.2) We can add many files in the staging area and then when I commit only one commit id is created for the many files and it is done in the repository. Working directory is a place where we add our files in our hard drive.
 
-What value do you think it offers?
+Q.3) What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
+Q.4) How can you use the staging area to make sure you have one commit per logical
 change?
 
-What are some situations when branches would be helpful in keeping your history
+A.4) git status is used to see the commit we just made. Staging area help in letting us know what changes we have made and we have not commited it yet. If we run git diff it gives us the difference in the changes in working directory and staging area so we can check and make sure if we want to commit or not.
+
+Q.5) What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-How do the diagrams help you visualize the branch structure?
+A.5) When we want to try something new but not sure if it will work then branches will help in making a copy of the file and we can change the codes to add the new feature and keeping the original copy intact.
 
-What is the result of merging two branches together? Why do we represent it in
+Q.6) How do the diagrams help you visualize the branch structure?
+
+A.6) We can check if we can trace down the commits we make while adding new features.( which branch contains which commits)
+
+Q.7) What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-What are the pros and cons of Git’s automatic merging vs. always doing merges
+A.7) Merging two branches we can access the commits we have made at different branches, merging branches is helpful in adding features which are made by different users. It is easy to analyse diagramatically.
+
+Q.8) What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+A.9) Git can't always identifiy which changes to keep and what to delete, so we should manually check the changes and decide what to delete and what to keep. Git shows a conflict when ever there is a change to the same part of the code and it can't decide what to do with it.
